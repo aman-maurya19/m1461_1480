@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sai-institute-of-paramedical-and-allied-science-dehradun-111837",
-  "https://www.shiksha.com/college/autonomous-state-medical-college-society-hardoi-180751",
-  "https://www.shiksha.com/college/uihmt-group-of-colleges-dehradun-49213",
-  "https://www.shiksha.com/college/government-polytechnic-college-for-women-kandaghat-solan-98395",
-  "https://www.shiksha.com/college/daya-general-hospital-and-speciality-surgical-centre-thrissur-105875",
-  "https://www.shiksha.com/college/mother-teresa-college-of-pharmacy-illuppur-tamil-nadu-other-148325",
-  "https://www.shiksha.com/college/krishna-school-of-pharmacy-and-research-vadodara-179789",
-  "https://www.shiksha.com/college/burdwan-institute-of-medical-and-life-sciences-bardhaman-182097",
-  "https://www.shiksha.com/college/sbspm-s-college-of-pharmacy-ambajogai-88005",
-  "https://www.shiksha.com/college/gry-institute-of-pharmacy-borawan-khargone-88043",
-  "https://www.shiksha.com/college/sb-college-of-science-and-technology-delhi-88921",
-  "https://www.shiksha.com/college/united-college-of-pharmacy-coimbatore-194005",
-  "https://www.shiksha.com/college/government-medical-college-rajamahendravaram-andhra-pradesh-other-213183",
-  "https://www.shiksha.com/college/ppg-college-of-physiotheraphy-coimbatore-225647",
-  "https://www.shiksha.com/college/ppg-college-of-occupational-therapy-coimbatore-225649",
-  "https://www.shiksha.com/college/ahalia-school-of-pharmacy-palakkad-60835",
-  "https://www.shiksha.com/college/sri-sivani-college-of-pharmacy-srikakulam-61185",
-  "https://www.shiksha.com/college/luqman-college-of-pharmacy-gulbarga-67791",
-  "https://www.shiksha.com/college/n-r-vekaria-institute-of-pharmacy-junagadh-87647",
-  "https://www.shiksha.com/college/breach-candy-hospital-trust-mumbai-105869",
+  "https://www.shiksha.com/college/jayaraj-annapackiam-college-for-women-theni-72459",
+  "https://www.shiksha.com/college/mohammadiya-institutions-khammam-73719",
+  "https://www.shiksha.com/college/lb-rao-institute-of-pharmaceutical-education-and-research-khambhat-88077",
+  "https://www.shiksha.com/college/school-of-nursing-cama-and-albless-hospital-mumbai-198051",
+  "https://www.shiksha.com/college/n-s-s-institute-of-paramedical-sciences-bangalore-199581",
+  "https://www.shiksha.com/college/murli-singh-yadav-memorial-prashikshan-sansthan-bikaner-231450",
+  "https://www.shiksha.com/college/prabha-devi-paramedical-college-uttar-pradesh-other-237088",
+  "https://www.shiksha.com/college/gokul-institute-of-technology-and-sciences-andhra-pradesh-other-23332",
+  "https://www.shiksha.com/college/venus-institute-of-physiotherapy-gandhinagar-47898",
+  "https://www.shiksha.com/college/medical-career-academy-pollachi-68325",
+  "https://www.shiksha.com/college/mdsd-girls-college-ambala-70177",
+  "https://www.shiksha.com/college/chaudhary-charan-singh-medical-s-p-s-ayurved-nursing-training-alwar-87103",
+  "https://www.shiksha.com/college/nagaji-institute-of-pharmaceutical-science-gwalior-88075",
+  "https://www.shiksha.com/college/mandar-education-society-s-college-of-pharmacy-ratnagiri-89159",
+  "https://www.shiksha.com/college/vathsalya-college-of-education-nalgonda-95421",
+  "https://www.shiksha.com/college/st-theresa-s-multi-specialty-hospital-hyderabad-106065",
+  "https://www.shiksha.com/college/mahatma-jyotiba-phoole-ayurved-nursing-training-centre-jaipur-122083",
+  "https://www.shiksha.com/college/coursera-gurgaon-138685",
+  "https://www.shiksha.com/college/maharaja-agrasen-college-of-pharmacy-bulandshahr-181729",
+  "https://www.shiksha.com/college/shri-mahavir-natural-prakritik-and-yoga-vigyan-mahavidyalaya-durg-187603",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2141
+    c_count = 3361
 
     try:
         for base_url in BASE_URL:
